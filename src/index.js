@@ -1,1 +1,2 @@
-//import { loadHomePage } from "./homepage.js";
+import { loadHomePage } from "./homepage.js";
+loadHomePage();

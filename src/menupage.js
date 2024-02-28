@@ -1,4 +1,7 @@
 export const loadMenuPage = function () {
+  // Update label
+  const label = document.querySelector("#label");
+  label.textContent = "Discover the Finest Culinary Creations";
   const contentElement = document.querySelector("#content");
 
   const h2Element = document.createElement("h2");

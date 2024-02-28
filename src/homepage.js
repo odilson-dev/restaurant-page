@@ -1,4 +1,8 @@
 export const loadHomePage = function () {
+  // Update label
+  const label = document.querySelector("#label");
+  label.textContent = "Find The Best Dining Experience";
+
   const contentElement = document.querySelector("#content");
 
   const h2Element = document.createElement("h2");

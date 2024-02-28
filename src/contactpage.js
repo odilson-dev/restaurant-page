@@ -1,4 +1,9 @@
 export const loadContactPage = function () {
+  // Update label
+  const label = document.querySelector("#label");
+  label.textContent = "Get in Touch with Us";
+
+  // Update content
   const contentElement = document.querySelector("#content");
 
   const h2Element1 = document.createElement("h2");
