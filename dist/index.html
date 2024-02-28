@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4ab498ab44.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Chez Michel - Contact Us</title>
     <style>
       body {
@@ -48,6 +52,17 @@
       .contact-info p {
         margin: 5px 0;
       }
+      footer {
+        background-color: #333;
+        padding: 20px;
+      }
+      .footer-content {
+        text-align: center;
+        color: #f9f9f9;
+      }
+      #github-icon {
+        color: #f9f9f9;
+      }
     </style>
   </head>
   <body>
@@ -57,9 +72,27 @@
         <button>Menu</button>
         <button>Contact</button>
       </nav>
+      <img
+        width="32"
+        height="32"
+        src="https://img.icons8.com/windows/32/ffffff/cook-male.png"
+        alt="cook-male"
+      />
       <h1>Chez Michel</h1>
       <p id="label"></p>
     </header>
     <div id="content"></div>
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; 2024 Chez Michel. All rights reserved.
+          <a
+            href="https://github.com/odilsoncode/restaurant-page"
+            target="_blank"
+            ><i id="github-icon" class="fa-brands fa-github"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
