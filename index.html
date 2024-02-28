@@ -32,11 +32,8 @@
         padding: 8px 16px;
         transition: all 0.3s ease;
       }
-      nav button:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-      }
       #content {
-        padding: 20px;
+        padding: 40px 150px 40px 150px;
         text-align: justify;
         max-width: 800px;
         margin: auto;
@@ -63,14 +60,18 @@
       #github-icon {
         color: #f9f9f9;
       }
+      .active {
+        background-color: #f9f9f9;
+        color: #333;
+      }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <button>Home</button>
-        <button>Menu</button>
-        <button>Contact</button>
+        <button id="home" class="active">Home</button>
+        <button id="menu">Menu</button>
+        <button id="contact">Contact</button>
       </nav>
       <img
         width="32"
