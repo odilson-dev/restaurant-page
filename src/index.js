@@ -1,2 +1,1 @@
-alert("Every things work properly");
-alert("Again!");
+//import { loadHomePage } from "./homepage.js";
