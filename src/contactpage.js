@@ -5,7 +5,7 @@ export const loadContactPage = function () {
 
   // Update content
   const contentElement = document.querySelector("#content");
-
+  contentElement.textContent = "";
   const h2Element1 = document.createElement("h2");
   h2Element1.textContent = "Contact Information";
   contentElement.appendChild(h2Element1);

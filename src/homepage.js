@@ -4,6 +4,7 @@ export const loadHomePage = function () {
   label.textContent = "Find The Best Dining Experience";
 
   const contentElement = document.querySelector("#content");
+  contentElement.textContent = "";
 
   const h2Element = document.createElement("h2");
   h2Element.textContent = "Welcome to Chez Michel";
