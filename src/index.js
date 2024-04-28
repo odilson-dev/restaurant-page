@@ -28,4 +28,3 @@ navButtons.forEach((button) => {
     }
   });
 });
-console.log(navButtons);
